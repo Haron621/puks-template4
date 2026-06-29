@@ -3,31 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой Простой Сайт в AWS</title>
+    <title>Путь к себе — Центр осознанности и личностного роста</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-        <div class="container">
-            <h1>Успешный запуск!</h1>
-            <p>Сайт работает на мощностях AWS Amplify</p>
+    <div class="top-banner"><p>ИНДИВИДУАЛЬНОЕ СОПРОВОЖДЕНИЕ И ДУХОВНЫЕ ПРАКТИКИ</p></div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-links"><a href="#about">О нас</a><a href="#practices">Практики</a></div>
+            <a href="#" class="logo">ПУТЬ К СЕБЕ</a>
+            <div class="nav-links"><a href="#philosophy">Философия</a><a href="#contact" class="nav-cta">Запись</a></div>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="subtitle">ИСТИННАЯ КРАСОТА ВНУТРИ</p>
+            <h1>Обретите гармонию и внутреннюю силу</h1>
+            <a href="#contact" class="btn-luxury">Начать путешествие</a>
         </div>
     </header>
-
-    <main class="container">
-        <section class="card">
-            <h2>Что это за проект?</h2>
-            <p>Это простейший статичный шаблон для проверки деплоя. Он готов к интеграции с Git и автоматическому обновлению при каждом пуше.</p>
-            <button id="actionBtn">Нажми на меня</button>
-            <p id="message" class="hidden">Привет! JavaScript тоже успешно подключен и работает 🎉</p>
-        </section>
-    </main>
-
+    <section class="philosophy-section" id="philosophy">
+        <div class="container-luxury">
+            <p class="section-tag">ФИЛОСОФИЯ</p>
+            <h2>Как неограненный алмаз становится шедевром, так и душа человека раскрывается через осознанность.</h2>
+            <div class="line-separator"></div>
+        </div>
+    </section>
+    <section class="grid-section" id="practices">
+        <div class="luxury-grid">
+            <div class="grid-item">
+                <div class="item-image img-one"></div>
+                <div class="item-info">
+                    <h3>Медитации и Ментал-коучинг</h3>
+                    <p>Глубокое погружение для снятия стресса и поиска фокуса.</p>
+                    <a href="#contact" class="link-explore">ИССЛЕДОВАТЬ</a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="item-image img-two"></div>
+                <div class="item-info">
+                    <h3>Трансформационные сессии</h3>
+                    <p>Персональные стратегии перепрошивки мышления и паттернов.</p>
+                    <a href="#contact" class="link-explore">ИССЛЕДОВАТЬ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <div class="form-container">
+            <h2>Сделать первый шаг</h2>
+            <p>Оставьте ваши контакты. Наш координатор свяжется с вами.</p>
+            <form id="luxuryForm">
+                <input type="text" placeholder="ИМЯ" required>
+                <input type="email" placeholder="EMAIL" required>
+                <button type="submit" class="btn-submit">ОТПРАВИТЬ ЗАЯВКУ</button>
+            </form>
+            <div id="formSuccess" class="success-message">Ваша заявка принята. Благодарим за доверие.</div>
+        </div>
+    </section>
     <footer>
-        <p>&copy; 2026 Мой AWS Проект</p>
+        <div class="footer-container">
+            <div class="footer-logo">ПУТЬ К СЕБЕ</div>
+            <p class="footer-copy">&copy; 2026 ПУТЬ К СЕБЕ. ВСЕ ПРАВА ЗАЩИЩЕНЫ.</p>
+        </div>
     </footer>
-
     <script src="script.js"></script>
 </body>
+</html>
 </html>
