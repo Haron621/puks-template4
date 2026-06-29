@@ -1,0 +1,92 @@
+/* Базовые сбросы */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Шапка */
+header {
+    background: linear-gradient(135deg, #232f3e, #1a222d); /* Цвета в стиле AWS */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Контент */
+main {
+    flex: 1;
+    padding: 40px 0;
+}
+
+.card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #232f3e;
+}
+
+/* Кнопка */
+button {
+    background-color: #ff9900; /* Фирменный оранжевый AWS */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #e08800;
+}
+
+/* Скрытый текст */
+.hidden {
+    display: none;
+}
+
+#message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    font-weight: bold;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #232f3e;
+    color: #8d99ae;
+    font-size: 0.9rem;
+}
