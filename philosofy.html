@@ -3,89 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Принципы работы — Путь к себе</title>
+    <title>Принципы подхода — Путь к себе</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Дополнительные стили для этой страницы, чтобы идеально выровнять текст */
-        .manifesto-section {
+        /* Дополнительные стили для создания глубокой, медитативной атмосферы */
+        .philosophy-page {
             background-color: #fdfbf7;
-            padding: 140px 20px;
-            font-family: 'Montserrat', sans-serif;
             color: #1a1a1a;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .philosophy-container {
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 140px 24px;
             text-align: center;
         }
-        .manifesto-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .manifesto-decor {
-            font-size: 24px;
-            color: #c5a880;
-            margin-bottom: 30px;
+        .main-statement {
             font-family: 'Cinzel', serif;
-            letter-spacing: 0.2em;
-        }
-        .manifesto-title {
-            font-family: 'Cinzel', serif;
-            font-size: 2.2rem;
+            font-size: 2.1rem;
             font-weight: 400;
-            letter-spacing: 0.06em;
             line-height: 1.5;
-            margin-bottom: 35px;
+            letter-spacing: 0.04em;
+            margin-bottom: 50px;
             color: #1a1a1a;
         }
-        .manifesto-text {
+        .sub-statement {
             font-size: 1.25rem;
             font-weight: 300;
-            letter-spacing: 0.03em;
-            line-height: 1.8;
-            margin-bottom: 45px;
-            color: #3a3a3a;
+            line-height: 1.9;
+            letter-spacing: 0.02em;
+            color: #2b2b2b;
+            margin-bottom: 60px;
         }
-        .manifesto-line {
-            width: 50px;
-            height: 1px;
-            background-color: #c5a880;
-            margin: 45px auto;
-            opacity: 0.6;
+        .accent-spacer {
+            width: 1px;
+            height: 70px;
+            background: linear-gradient(to bottom, #c5a880, transparent);
+            margin: 0 auto 60px auto;
         }
-        .manifesto-negatives {
-            margin-bottom: 55px;
+        .limitations-list {
+            margin-bottom: 60px;
         }
-        .manifesto-negatives p {
+        .limitations-list p {
             font-size: 1.15rem;
             font-weight: 300;
-            letter-spacing: 0.05em;
-            color: #6a6a6a;
-            margin: 18px 0;
+            letter-spacing: 0.03em;
+            color: #5a5a5a;
+            margin: 22px 0;
         }
-        .manifesto-positives {
-            background-color: #ffffff;
-            padding: 45px 40px;
-            border: 1px solid rgba(197, 168, 128, 0.25);
-            max-width: 540px;
-            margin: 0 auto 50px auto;
+        .values-box {
+            border-top: 1px solid rgba(197, 168, 128, 0.3);
+            border-bottom: 1px solid rgba(197, 168, 128, 0.3);
+            padding: 40px 0;
+            margin: 50px 0 70px 0;
         }
-        .manifesto-positives h3 {
+        .values-box h2 {
             font-family: 'Cinzel', serif;
-            font-size: 1.35rem;
+            font-size: 1.5rem;
             font-weight: 400;
-            letter-spacing: 0.15em;
+            letter-spacing: 0.2em;
             color: #c5a880;
-            margin: 12px 0;
+            margin: 15px 0;
         }
         @media (max-width: 768px) {
-            .manifesto-section { padding: 100px 20px; }
-            .manifesto-title { font-size: 1.6rem; }
-            .manifesto-text { font-size: 1.1rem; }
-            .manifesto-positives h3 { font-size: 1.1rem; }
+            .philosophy-container { padding: 90px 20px; }
+            .main-statement { font-size: 1.6rem; margin-bottom: 35px; }
+            .sub-statement { font-size: 1.1rem; margin-bottom: 40px; }
+            .accent-spacer { height: 50px; margin-bottom: 40px; }
+            .values-box h2 { font-size: 1.2rem; letter-spacing: 0.15em; }
         }
     </style>
 </head>
-<body>
+<body class="philosophy-page">
+
     <div class="top-banner"><p>ИНДИВИДУАЛЬНОЕ СОПРОВОЖДЕНИЕ И ЛИЧНАЯ ПОДДЕРЖКА</p></div>
     
     <nav class="navbar">
@@ -96,39 +89,35 @@
         </div>
     </nav>
 
-    <main class="manifesto-section">
-        <div class="manifesto-container">
-            
-            <div class="manifesto-decor">✦</div>
-            
-            <h1 class="manifesto-title">
-                Никто не знает вашу жизнь лучше, чем вы сами.
-            </h1>
-            
-            <p class="manifesto-text">
-                Поэтому задача этой работы — не дать готовые ответы.<br>
-                А создать условия, в которых становится легче услышать себя, увидеть новые возможности и принять решения, которые действительно подходят именно вам.
-            </p>
+    <main class="philosophy-container">
+        
+        <h1 class="main-statement">
+            Никто не знает вашу жизнь лучше, чем вы сами.
+        </h1>
+        
+        <p class="sub-statement">
+            Поэтому задача этой работы — не дать готовые ответы.<br>
+            А создать условия, в которых становится легче услышать себя, увидеть новые возможности и принять решения, которые действительно подходят именно вам.
+        </p>
 
-            <div class="manifesto-line"></div>
+        <div class="accent-spacer"></div>
 
-            <div class="manifesto-negatives">
-                <p>Именно поэтому здесь нет давления.</p>
-                <p>Нет универсальных рецептов.</p>
-                <p>Нет необходимости соответствовать чужим представлениям о том, какой «нужно» быть.</p>
-            </div>
-
-            <div class="manifesto-positives">
-                <h3>ЕСТЬ УВАЖЕНИЕ.</h3>
-                <h3>ВНИМАНИЕ.</h3>
-                <h3>И БЕРЕЖНОЕ СОПРОВОЖДЕНИЕ.</h3>
-            </div>
-
-            <div>
-                <a href="https://wa.me/905313521971" target="_blank" class="btn-luxury" style="display: inline-block; text-decoration: none;">Начать путешествие</a>
-            </div>
-
+        <div class="limitations-list">
+            <p>Именно поэтому здесь нет давления.</p>
+            <p>Нет универсальных рецептов.</p>
+            <p>Нет необходимости соответствовать чужим представлениям о том, какой «нужно» быть.</p>
         </div>
+
+        <div class="values-box">
+            <h2>ЕСТЬ УВАЖЕНИЕ.</h2>
+            <h2>ВНИМАНИЕ.</h2>
+            <h2>И БЕРЕЖНОЕ СОПРОВОЖДЕНИЕ.</h2>
+        </div>
+
+        <div>
+            <a href="https://wa.me/905313521971" target="_blank" class="btn-luxury" style="display: inline-block; text-decoration: none;">Начать путешествие</a>
+        </div>
+
     </main>
 
     <footer>
