@@ -17,7 +17,7 @@ body { background-color: var(--white); color: var(--black); font-family: var(--f
 .nav-links a { color: var(--black); text-decoration: none; font-size: 0.75rem; margin: 0 20px; text-transform: uppercase; font-weight: 400; transition: color 0.3s; }
 .nav-links a:hover { color: var(--accent-grey); }
 .nav-links .nav-cta { border-bottom: 1px solid var(--black); padding-bottom: 2px; }
-.hero { position: relative; height: 90vh; background: url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center; color: var(--white); }
+.hero { position: relative; height: 90vh; background: url('photo-3.avif') center/cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center; color: var(--white); }
 .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.25); }
 .hero-content { position: relative; z-index: 1; max-width: 800px; padding: 0 20px; }
 .hero-content .subtitle { font-size: 0.8rem; margin-bottom: 20px; font-weight: 300; }
@@ -33,8 +33,8 @@ body { background-color: var(--white); color: var(--black); font-family: var(--f
 .grid-item { flex: 1; background-color: var(--light-grey); text-align: center; padding-bottom: 60px; }
 .item-image { height: 600px; background-size: cover; background-position: center; transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
 .grid-item:hover .item-image { transform: scale(1.02); }
-.img-one { background-image: url('https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=1000&q=80'); }
-.img-two { background-image: url('https://images.unsplash.com/photo-1447452001602-7090c7ab2db3?auto=format&fit=crop&w=1000&q=80'); }
+.img-one { background-image: url('photo-2.avif'); }
+.img-two { background-image: url('photo-1.avif'); }
 .item-info { padding: 40px 40px 0; max-width: 500px; margin: 0 auto; }
 .item-info h3 { font-family: var(--font-serif); font-size: 1.4rem; font-weight: 400; margin-bottom: 15px; }
 .item-info p { font-size: 0.85rem; color: var(--accent-grey); font-weight: 300; margin-bottom: 25px; line-height: 1.5; }
